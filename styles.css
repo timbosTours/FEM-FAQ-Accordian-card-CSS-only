@@ -9,7 +9,7 @@
 
     --dvdr-lightGreyBlue: hsl(240, 5%, 91%);
 
-    --ff-kumbh-sans: font-family: 'Kumbh Sans', sans-serif; 
+    --ff-kumbh-sans: 'Kumbh Sans', sans-serif; 
 }
 
 * {
@@ -18,12 +18,30 @@
 }
 
 body{
-
+    background: linear-gradient(180deg, var(--bg-violet) 0%, var(--bg-softBlue) 100%);
+    height: 100vh;
+    /* Center the card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
+
 
 #faq-card{
     border: 2px solid red;
+    min-width: 18rem;
+    min-height: 30rem;
+    background-color: white;
+    border-radius: 20px;
+}
 
+#faq-card-h1{
+    font-family: var(--ff-kumbh-sans);
+    font-weight: 700;
+    color: var(--txt-darkBlue);
+    margin-top: 7rem;
 }
 
 .attribution{
