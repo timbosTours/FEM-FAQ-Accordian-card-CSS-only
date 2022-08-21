@@ -1,0 +1,33 @@
+:root{
+    --bg-violet: hsl(273, 75%, 66%);
+    --bg-softBlue: hsl(240, 73%, 65%);
+    
+    --txt-darkBlue: hsl(238, 29%, 16%);
+    --txt-softRed: hsl(14, 88%, 65%);
+    --txt-veryDarkGreyBlue: hsl(237, 12%, 33%);
+    --txt-darkGreyBlue: hsl(240, 6%, 50%);
+
+    --dvdr-lightGreyBlue: hsl(240, 5%, 91%);
+
+    --ff-kumbh-sans: font-family: 'Kumbh Sans', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+#faq-card{
+    border: 2px solid red;
+
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
