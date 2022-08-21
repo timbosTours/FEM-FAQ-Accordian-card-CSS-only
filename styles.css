@@ -44,6 +44,10 @@ body{
     margin-top: 7rem;
 }
 
+details{
+    font-family: var(--ff-kumbh-sans);
+}
+
 .attribution{
     position: fixed;
     bottom: 0;
