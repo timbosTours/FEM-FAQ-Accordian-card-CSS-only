@@ -63,10 +63,20 @@ summary{
     padding-right: 1em;
 }
 
+/* animate summary font change on click */
 details[open] summary {
     font-weight: 700;
     color: var(--txt-darkBlue);
 }
+
+/* animate paragragh transition with keyframes */
+details[open] .faq-paragragh {
+    animation: sweep 0.065s ease-in-out;
+    
+}
+
+/* animate orange click down arrow to flip on click */
+
 
 .faq-paragragh{
     margin-top: 1em;
@@ -76,4 +86,13 @@ details[open] summary {
     position: fixed;
     bottom: 0;
     display: none;
+}
+
+@keyframes sweep {
+    from {
+        opacity: 0; margin-top: -10px;
+    }
+    to {
+        opacity: 0; margin-top: 0;
+    }
 }
