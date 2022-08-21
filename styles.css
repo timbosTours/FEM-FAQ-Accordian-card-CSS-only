@@ -31,10 +31,11 @@ body{
 
 #faq-card{
     border: 2px solid red;
-    min-width: 18rem;
+    max-width: 20rem;
     min-height: 30rem;
     background-color: white;
     border-radius: 20px;
+    padding-bottom: 3em;
 }
 
 #faq-card-h1{
@@ -42,10 +43,33 @@ body{
     font-weight: 700;
     color: var(--txt-darkBlue);
     margin-top: 7rem;
+    margin-bottom: 0.75em;
 }
 
 details{
     font-family: var(--ff-kumbh-sans);
+    color: var(--txt-darkGreyBlue);
+    text-align: left;
+    padding: 1em;
+    border-bottom: 1px solid var(--dvdr-lightGreyBlue);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+summary{
+    background: url(./images/icon-arrow-down.svg) right no-repeat;
+    list-style: none;
+    cursor: pointer; 
+    padding-right: 1em;
+}
+
+details[open] summary {
+    font-weight: 700;
+    color: var(--txt-darkBlue);
+}
+
+.faq-paragragh{
+    margin-top: 1em;
 }
 
 .attribution{
