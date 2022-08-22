@@ -10,6 +10,8 @@
     --dvdr-lightGreyBlue: hsl(240, 5%, 91%);
 
     --ff-kumbh-sans: 'Kumbh Sans', sans-serif; 
+
+    --arrow-icon: url(./images/icon-arrow-down.svg);
 }
 
 * {
@@ -46,7 +48,8 @@ body{
     margin-bottom: 0.75em;
 }
 
-details{
+
+.faq-details{
     font-family: var(--ff-kumbh-sans);
     color: var(--txt-darkGreyBlue);
     text-align: left;
@@ -56,15 +59,18 @@ details{
     margin-right: 1em;
 }
 
-summary{
-    background: url(./images/icon-arrow-down.svg) right no-repeat;
+.arrow-icon{
+    position: relative;
+    float: right;
+}
+.faq-summary{
     list-style: none;
     cursor: pointer; 
-    padding-right: 1em;
 }
+    
 
 /* animate summary font change on click */
-details[open] summary {
+details[open] .faq-summary {
     font-weight: 700;
     color: var(--txt-darkBlue);
 }
@@ -72,11 +78,12 @@ details[open] summary {
 /* animate paragragh transition with keyframes */
 details[open] .faq-paragragh {
     animation: sweep 0.065s ease-in-out;
-    
 }
 
 /* animate orange click down arrow to flip on click */
-
+details[open] summary {
+    
+}
 
 .faq-paragragh{
     margin-top: 1em;
