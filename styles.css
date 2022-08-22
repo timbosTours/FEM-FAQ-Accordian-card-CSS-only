@@ -62,6 +62,8 @@ body{
 .arrow-icon{
     position: relative;
     float: right;
+    padding-top: 0;
+    margin-top: 0;
 }
 .faq-summary{
     list-style: none;
@@ -81,8 +83,8 @@ details[open] .faq-paragragh {
 }
 
 /* animate orange click down arrow to flip on click */
-details[open] summary {
-    
+details[open]  .arrow-icon {
+    transform: rotate(180deg);
 }
 
 .faq-paragragh{
