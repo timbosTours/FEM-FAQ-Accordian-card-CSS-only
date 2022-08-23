@@ -22,6 +22,7 @@
 body{
     background: linear-gradient(180deg, var(--bg-violet) 0%, var(--bg-softBlue) 100%);
     height: 100vh;
+    padding: 3rem;
     /* Center the card */
     display: flex;
     justify-content: center;
@@ -33,14 +34,19 @@ body{
 #img-mobile{
     max-width: 16rem;
     z-index: 1000;
-    margin-top: -40%;
-    padding-top: 1.5em;
+    margin-top: -35%;
+
+}
+
+#bg-shadow-mobile{
+    margin-top: -25%;
+    min-width: 16rem;
 }
 
 #faq-card{
     min-width: 20rem;
     max-width: 20rem;
-    min-height: 30rem;
+    min-height: 28rem;
     background-color: white;
     border-radius: 20px;
     padding-top: 0em;
