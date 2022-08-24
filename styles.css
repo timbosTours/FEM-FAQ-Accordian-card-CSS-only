@@ -111,6 +111,21 @@ details[open]  .arrow-icon {
     display: none;
 }
 
+@media screen and (min-width: 375px) {
+    #img-mobile{
+        display: none;
+    }
+    #bg-shadow-mobile{
+        display: none;
+    }
+    #faq-card{
+        min-width: 50rem;
+    }
+    #faq-card-h1{
+        padding-top: 4rem;
+    }
+}
+
 @keyframes sweep {
     from {
         opacity: 0; margin-top: -10px;
@@ -119,3 +134,4 @@ details[open]  .arrow-icon {
         opacity: 0; margin-top: 0;
     }
 }
+
