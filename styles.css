@@ -120,9 +120,20 @@ details[open]  .arrow-icon {
     }
     #faq-card{
         min-width: 50rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
     }
     #faq-card-h1{
         padding-top: 4rem;
+        grid-column: 2;
+        display: flex;
+        align-items: left;
+    }
+    .faq-details{
+        grid-column: 2;
+        /* margin: 0;
+        padding: 0; */
     }
 }
 
