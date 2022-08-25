@@ -83,6 +83,18 @@ body{
     list-style: none;
     cursor: pointer;
 }
+
+#img-desktop{
+    display: none;
+}
+
+#bg-shadow-desktop{
+    display: none;
+}
+
+#orange-box-img{
+    display: none;
+}
     
 
 /* animate summary font change on click */
@@ -119,21 +131,37 @@ details[open]  .arrow-icon {
         display: none;
     }
     #faq-card{
-        min-width: 50rem;
+        min-width: 55rem;
+        max-height: 35rem;
         display: grid;
         grid-template-columns: 50% 50%;
-
+        padding-bottom: 5em;
     }
+
+    #img-desktop{
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 2/3;
+        margin: 0;
+        padding: 0;
+        border: 2px solid red;
+        margin-left: -20%;
+    }
+
     #faq-card-h1{
         padding-top: 4rem;
-        grid-column: 2;
+        padding-bottom: 0;
+        margin-top: 0;
+        grid-column: 2 / 3;
         display: flex;
         align-items: left;
     }
     .faq-details{
+        display: inline-block;
         grid-column: 2;
-        /* margin: 0;
-        padding: 0; */
+        margin-left: 0;
+        margin-right: 5rem;
+        border: 2px solid blue;
     }
 }
 
