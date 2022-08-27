@@ -157,7 +157,7 @@ details[open]  .arrow-icon {
         align-items: left;
     }
     .faq-details{
-        display: inline-block;
+        display: block;
         grid-column: 2;
         margin-left: 0;
         margin-right: 5rem;
