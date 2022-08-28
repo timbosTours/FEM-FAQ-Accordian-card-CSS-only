@@ -82,6 +82,10 @@ body{
     cursor: pointer;
 }
 
+.faq-summary:hover{
+    color: var(--txt-softRed);
+}
+
 #img-desktop{
     display: none;
 }
