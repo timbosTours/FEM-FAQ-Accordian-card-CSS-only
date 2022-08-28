@@ -49,6 +49,8 @@ body{
     background-color: white;
     border-radius: 20px;
     padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #faq-card-h1{
@@ -125,7 +127,7 @@ details[open]  .arrow-icon {
     display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 950px) {
     #img-mobile{
         display: none;
     }
