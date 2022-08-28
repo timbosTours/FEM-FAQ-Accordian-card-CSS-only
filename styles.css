@@ -148,6 +148,8 @@ details[open]  .arrow-icon {
         grid-template-columns: 50% 50%;
         padding-bottom: 0em;
         overflow: hidden;
+        padding: 0;
+        margin: 0;
     }
     
     #bg-shadow-desktop{
